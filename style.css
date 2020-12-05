@@ -1,0 +1,104 @@
+h1{
+    color: lightgreen;
+    margin: 30px;
+}
+
+*{
+   border: solid;
+
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: purple;
+}
+
+.menu{
+    margin-right: 30px;
+}
+
+.menu a{
+    margin-left: 20px;
+}
+
+.header{
+    color: orange;
+    background-color: #170192;
+    border: solid;
+}
+
+.Projects{
+    display: flex;
+    background-color: #0856ff;
+    justify-content: space-around;
+    font-family: "Jokerman";
+    align-items: baseline;
+    border-style: dashed;
+    cursor: vertical-text;
+}
+
+
+a:hover {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+p:hover{
+    color: yellow;
+}
+
+.Footer{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+p{
+    text-align: center;  
+}
+
+.Description{
+    justify-content: center;
+}
+
+body{
+   background-color: #7355fa;
+}
+
+.Projects{
+    position: relative; 
+   }
+    .Projects p{ 
+   position: absolute; top: 50%; left: 50%; opacity:0;
+   transform: translate(-50%, -50%);
+    }
+    .Projects:hover p{
+    opacity: 1; } 
+   .Projects:hover img{
+    opacity: 0; 
+   } 
+   .Project1:hover{ 
+   background: url("Legendary_Quote.jpg") no-repeat; position:relative; 
+   } 
+
+   .Project2:hover{ 
+    background: url("Legendary_Quote.jpg") no-repeat; position:relative; 
+    } 
+
+    .Project3:hover{ 
+        background: url("Legendary_Quote.jpg") no-repeat; position:relative; 
+        } 
+
+        .Project4:hover{ 
+            background: url("Legendary_Quote.jpg") no-repeat; position:relative; 
+            } 
+
+            .Project5:hover{ 
+                background: url("Legendary_Quote.jpg") no-repeat; position:relative; 
+                } 
+
+
+
