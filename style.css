@@ -37,7 +37,7 @@ a:visited{
     font-family: "Jokerman";
     align-items: baseline;
     border-style: dashed;
-    cursor: vertical-text;
+   cursor: vertical-text;
 }
 
 
@@ -71,12 +71,13 @@ body{
 .Projects{
     position: relative; 
    }
-    .Projects p{ 
+   /* .Projects p{ 
    position: absolute; top: 50%; left: 50%; opacity:0;
    transform: translate(-50%, -50%);
     }
     .Projects:hover p{
     opacity: 1; } 
+    */
    .Projects:hover img{
     opacity: 0; 
    } 
